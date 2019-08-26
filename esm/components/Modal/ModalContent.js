@@ -27,7 +27,7 @@ export var ModalContent = function (_a) {
     var children = _a.children, props = __rest(_a, ["children"]);
     return (React.createElement(ModalConsumer, null, function (_a) {
         var active = _a.active, hideModal = _a.hideModal;
-        return (React.createElement(Box, __assign({ active: active, hideModal: hideModal }, props), children));
+        return (React.createElement(Box, __assign({ active: active, onClickBackground: hideModal }, props), children));
     }));
 };
 //# sourceMappingURL=ModalContent.js.map

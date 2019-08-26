@@ -97,7 +97,7 @@ storiesOf('Table', module)
         <Table>
           <Head>
             <Row>
-              <Cell colspan={3}>colspan="3"</Cell>
+              <Cell colspan={3}>colspan=3</Cell>
               <Cell>cell</Cell>
               <Cell>cell</Cell>
               <Cell>cell</Cell>
@@ -113,7 +113,7 @@ storiesOf('Table', module)
               <Cell>cell</Cell>
             </Row>
             <Row>
-              <Cell rowspan={0}>rowspan="0"</Cell>
+              <Cell rowspan={0}>rowspan=0</Cell>
               <Cell>cell</Cell>
               <Cell>cell</Cell>
               <Cell>cell</Cell>

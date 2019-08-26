@@ -1,10 +1,11 @@
-import * as React from 'react'
+import * as React from 'react';
 interface Props {
-  isOpen: boolean
-  top?: number
-  right?: number
-  bottom?: number
-  left?: number
+    isOpen: boolean;
+    onClickBackground?: () => void;
+    top?: number;
+    right?: number;
+    bottom?: number;
+    left?: number;
 }
-export declare const Modal: React.FC<Props>
-export {}
+export declare const Modal: React.FC<Props>;
+export {};

@@ -28,9 +28,9 @@ import * as React from 'react';
 import styled, { css, createGlobalStyle } from 'styled-components';
 import { withTheme } from '../../hocs/withTheme';
 var BoxComponent = function (_a) {
-    var active = _a.active, children = _a.children, hideModal = _a.hideModal, props = __rest(_a, ["active", "children", "hideModal"]);
+    var active = _a.active, children = _a.children, onClickBackground = _a.onClickBackground, props = __rest(_a, ["active", "children", "onClickBackground"]);
     return (React.createElement(Wrapper, __assign({ className: active ? 'active' : '' }, props), active ? (React.createElement(React.Fragment, null,
-        React.createElement(Background, __assign({}, props, { onClick: hideModal })),
+        React.createElement(Background, __assign({}, props, { onClick: onClickBackground })),
         React.createElement(Inner, __assign({}, props), children),
         React.createElement(ScrollSuppressing, null))) : null));
 };

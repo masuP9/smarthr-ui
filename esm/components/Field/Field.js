@@ -15,7 +15,7 @@ var fieldFactory = function (InputComponent) { return function (_a) {
             React.createElement(Title, { theme: theme },
                 label,
                 required && (React.createElement(TagWrapper, { theme: theme },
-                    React.createElement(Tag, { type: "require" }, "\u5FC5\u9808")))),
+                    React.createElement(Tag, { type: "required" }, "\u5FC5\u9808")))),
             help && React.createElement(Help, { theme: theme }, help)),
         InputComponent ? (React.createElement(InputComponent, { value: value, name: name, required: required, placeholder: placeholder, disabled: disabled, error: !!error, width: width, onChange: onChange, onBlur: onBlur })) : (children),
         error && React.createElement(Error, { theme: theme }, error)));

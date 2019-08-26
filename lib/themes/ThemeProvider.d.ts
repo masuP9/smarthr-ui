@@ -1,8 +1,8 @@
-import * as React from 'react'
-import { CreatedTheme } from '../themes/createTheme'
-export declare const ThemeContext: React.Context<CreatedTheme>
+import * as React from 'react';
+import { CreatedTheme } from '../themes/createTheme';
+export declare const ThemeContext: React.Context<CreatedTheme>;
 interface Props extends React.Props<{}> {
-  theme: CreatedTheme
+    theme: CreatedTheme;
 }
-export declare const ThemeProvider: React.FC<Props>
-export {}
+export declare const ThemeProvider: React.FC<Props>;
+export {};

@@ -1,1 +1,1 @@
-export * from './Flash'
+export * from './Flash';

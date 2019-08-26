@@ -1,1 +1,1 @@
-export * from './RadioLabel'
+export * from './RadioLabel';

@@ -1,12 +1,12 @@
-import * as React from 'react'
+import * as React from 'react';
 interface Props {
-  active: boolean
-  top?: number
-  right?: number
-  bottom?: number
-  left?: number
-  hideModal?: () => void
-  children?: React.ReactNode
+    active: boolean;
+    onClickBackground?: () => void;
+    top?: number;
+    right?: number;
+    bottom?: number;
+    left?: number;
+    children?: React.ReactNode;
 }
-export declare const Box: (props: Props) => JSX.Element
-export {}
+export declare const Box: (props: Props) => JSX.Element;
+export {};

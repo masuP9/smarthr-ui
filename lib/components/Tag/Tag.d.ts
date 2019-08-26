@@ -1,9 +1,8 @@
 /// <reference types="react" />
-declare type Type = 'success' | 'warning' | 'error' | 'require'
+declare type Type = 'done' | 'success' | 'process' | 'required' | 'disabled' | 'must' | 'warning' | 'error';
 interface Props {
-  skeleton?: boolean
-  type?: Type
-  children: string
+    type?: Type;
+    children: string;
 }
-export declare const Tag: (props: Props) => JSX.Element
-export {}
+export declare const Tag: (props: Props) => JSX.Element;
+export {};

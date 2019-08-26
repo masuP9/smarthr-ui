@@ -1,2 +1,2 @@
-import * as React from 'react'
-export declare const ModalEraser: React.FC<{}>
+import * as React from 'react';
+export declare const ModalEraser: React.FC<{}>;
