@@ -38,7 +38,7 @@ export declare const hoverable: ({ hoverClassName }?: Options) => <OriginalProps
         }, K> | null) | Pick<{
             isHover: boolean;
         }, K> | null, callback?: (() => void) | undefined): void;
-        forceUpdate(callBack?: (() => void) | undefined): void;
+        forceUpdate(callback?: (() => void) | undefined): void;
         readonly props: Readonly<OriginalProps & ExternalProps> & Readonly<{
             children?: React.ReactNode;
         }>;
@@ -67,7 +67,7 @@ export declare const hoverable: ({ hoverClassName }?: Options) => <OriginalProps
         }, K> | null) | Pick<{
             isHover: boolean;
         }, K> | null, callback?: (() => void) | undefined): void;
-        forceUpdate(callBack?: (() => void) | undefined): void;
+        forceUpdate(callback?: (() => void) | undefined): void;
         readonly props: Readonly<OriginalProps & ExternalProps> & Readonly<{
             children?: React.ReactNode;
         }>;

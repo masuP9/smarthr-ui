@@ -32,7 +32,7 @@ var Td = styled.td(templateObject_5 || (templateObject_5 = __makeTemplateObject(
     ";\n"])), function (_a) {
     var theme = _a.theme;
     var size = theme.size, palette = theme.palette, frame = theme.frame;
-    return css(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n      color: ", ";\n      padding: ", " ", ";\n      border-top: ", ";\n      font-size: ", ";\n    "], ["\n      color: ", ";\n      padding: ", " ", ";\n      border-top: ", ";\n      font-size: ", ";\n    "])), palette.TEXT_BLACK, size.pxToRem(size.space.XXS), size.pxToRem(size.space.XS), frame.border.default, size.pxToRem(size.font.TALL));
+    return css(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n      color: ", ";\n      padding: ", ";\n      border-top: ", ";\n      font-size: ", ";\n    "], ["\n      color: ", ";\n      padding: ", ";\n      border-top: ", ";\n      font-size: ", ";\n    "])), palette.TEXT_BLACK, size.pxToRem(size.space.XS), frame.border.default, size.pxToRem(size.font.TALL));
 });
 export var Cell = withTheme(CellComponent);
 var templateObject_1, templateObject_2, templateObject_3, templateObject_4, templateObject_5;
