@@ -35,7 +35,7 @@ var CheckboxComponent = /** @class */ (function (_super) {
         var classNames = "\n      " + className + " " + (checked ? 'active' : '') + " " + (disabled ? 'disabled' : '') + " " + themeColor + "\n    ";
         return (React.createElement(Wrapper, { className: classNames, theme: theme },
             checked && (React.createElement(IconWrap, null,
-                React.createElement(Icon, { name: "check", size: 12, color: themeColor === 'light' ? '#fff' : theme.palette.MAIN }))),
+                React.createElement(Icon, { name: "fa-check", size: 12, color: themeColor === 'light' ? '#fff' : theme.palette.MAIN }))),
             React.createElement(Input, { type: "checkbox", checked: checked, name: name, disabled: disabled, onChange: this.handleChange })));
     };
     return CheckboxComponent;

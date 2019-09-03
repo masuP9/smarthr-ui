@@ -21,16 +21,8 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import * as React from 'react';
-import { FaAddressBook, FaAddressCard, FaAngleDoubleDown, FaAngleDown, FaArrowCircleDown, FaArrowDown, FaBirthdayCake, FaBuilding, FaCalendarAlt, FaCaretDown, FaChartArea, FaChartBar, FaChartLine, FaChartPie, FaCog, FaDatabase, FaEllipsisH, FaEnvelope, FaFile, FaFileAlt, FaFileArchive, FaFileDownload, FaFileExport, FaFileImport, FaFileUpload, FaFilter, FaFont, FaGripVertical, FaLock, FaLockOpen, FaPencilAlt, FaPlus, FaPlusCircle, FaQuestionCircle, FaRegCalendarCheck, FaRegChartBar, FaRegImage, FaSearch, FaSlidersH, FaSort, FaSyncAlt, FaTable, FaThList, FaUserAlt, FaUserCircle, FaUsers, } from 'react-icons/fa';
-import { Check } from './svg/Check';
-import { CheckCircle } from './svg/CheckCircle';
-import { Cross } from './svg/Cross';
-import { ExclamationTriangle } from './svg/ExclamationTriangle';
+import { FaAddressBook, FaAddressCard, FaAngleDoubleDown, FaAngleDown, FaArrowCircleDown, FaArrowDown, FaBirthdayCake, FaBuilding, FaCalendarAlt, FaCaretDown, FaChartArea, FaChartBar, FaChartLine, FaChartPie, FaCheck, FaCheckCircle, FaCog, FaDatabase, FaEllipsisH, FaEnvelope, FaExclamationTriangle, FaFile, FaFileAlt, FaFileArchive, FaFileDownload, FaFileExport, FaFileImport, FaFileUpload, FaFilter, FaFont, FaGripVertical, FaLock, FaLockOpen, FaPencilAlt, FaPlus, FaPlusCircle, FaQuestionCircle, FaRegCalendarCheck, FaRegChartBar, FaRegImage, FaSearch, FaSlidersH, FaSort, FaSyncAlt, FaTable, FaThList, FaTimes, FaUserAlt, FaUserCircle, FaUsers, } from 'react-icons/fa';
 var iconMap = {
-    check: Check,
-    'check-circle': CheckCircle,
-    cross: Cross,
-    'exclamation-triangle': ExclamationTriangle,
     'fa-address-book': FaAddressBook,
     'fa-address-card': FaAddressCard,
     'fa-angle-double-down': FaAngleDoubleDown,
@@ -45,10 +37,13 @@ var iconMap = {
     'fa-chart-bar': FaChartBar,
     'fa-chart-line': FaChartLine,
     'fa-chart-pie': FaChartPie,
+    'fa-check': FaCheck,
+    'fa-check-circle': FaCheckCircle,
     'fa-cog': FaCog,
     'fa-databas': FaDatabase,
     'fa-ellipsis-h': FaEllipsisH,
     'fa-envelope': FaEnvelope,
+    'fa-exclamation-triangle': FaExclamationTriangle,
     'fa-file': FaFile,
     'fa-file-alt': FaFileAlt,
     'fa-file-archive': FaFileArchive,
@@ -74,6 +69,7 @@ var iconMap = {
     'fa-sync-alt': FaSyncAlt,
     'fa-table': FaTable,
     'fa-th-list': FaThList,
+    'fa-times': FaTimes,
     'fa-user-alt': FaUserAlt,
     'fa-user-circle': FaUserCircle,
     'fa-users': FaUsers,
